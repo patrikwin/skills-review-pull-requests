@@ -149,11 +149,11 @@
   // Display game over, cancel events
   function endGame(result) {
     if (result === "draw") {
-      gameOver.textContent = "Game over, refresh to play again 🧑‍💻 🤖!: Draw";
+      gameOver.textContent = "Game Over: Draw";
     } else if (result === "human") {
-      gameOver.textContent = "Game over, refresh to play again 🧑‍💻 🤖!: You win";
+      gameOver.textContent = "Game Over: You win";
     } else if (result === "robot") {
-      gameOver.textContent = "Game over, refresh to play again 🧑‍💻 🤖!: Robot wins";
+      gameOver.textContent = "Game Over: Robot wins";
     }
     gameOver.hidden = false;
     playAgainBtn.hidden = false;
